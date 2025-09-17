@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: WordCounterAPI
+
+server:
+  port: 8080
+
+springdoc:
+  api-doc:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+
+logging:
+  level:
+    com.kobe.wordcounterapi: DEBUG
+  pattern:
+    console: '%d{yyyy-MM-dd HH:mm:ss} - %msg%n'
